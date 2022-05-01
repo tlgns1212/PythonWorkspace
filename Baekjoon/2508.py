@@ -4,7 +4,6 @@ for _ in range(T):
     sys.stdin.readline()
     A = []
     count = 0
-    now = 0
     r, c = map(int, sys.stdin.readline().split())
     for _ in range(r):
         A.append(sys.stdin.readline())
