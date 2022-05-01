@@ -2,7 +2,6 @@ import sys
 hurtFinger = int(sys.stdin.readline())
 maxRepeat = int(sys.stdin.readline())
 answer = 0
-hurtCount = 0
 
 
 # if hurtfinger is 1 or 5
@@ -15,7 +14,7 @@ elif hurtFinger == 5:
     if maxRepeat == 0:
         answer += hurtFinger-1
     else:
-        answer += 5 + 8*(maxRepeat-1) + 7
+        answer += 4 + 8*(maxRepeat)
 
 
 # else hurtfinger is 2,3,4
